@@ -180,7 +180,7 @@ parameter_definitions = {
                                 "tags": [TAG.Discharge, TAG.Water, TAG.Differential, TAG.Pressure, TAG.Proportional, TAG.Band, TAG.Parameter , TAG.PID ],
                             },
                         },
-                        "tags": [ TAG.Supply, TAG.Water, TAG.Differential, TAG.Pressure, TAG.Proportional, TAG.Bandsetpoint, TAG.Band, TAG.Parameter , TAG.PID ],
+                        "tags": [ TAG.Supply, TAG.Water, TAG.Differential, TAG.Pressure, TAG.Proportional, TAG.Band, TAG.Parameter , TAG.PID ],
                     },
                     "Supply_Water_Temperature_Proportional_Band_Parameter": {
                         "tags": [ TAG.Supply, TAG.Water, TAG.Temperature, TAG.Proportional, TAG.Band, TAG.Parameter, TAG.PID ],
