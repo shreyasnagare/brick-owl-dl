@@ -210,8 +210,8 @@ define_subclasses(valve_subclasses, BRICK.Valve)
 from substances import substances
 define_subclasses(substances, BRICK.Substance)
 
-from quantities import quantity_definitions
-define_subclasses(quantity_definitions, BRICK.Quantity)
+from quantities import quantity_subclasses
+define_subclasses(quantity_subclasses, BRICK.Quantity)
 
 from properties import properties
 define_properties(properties)

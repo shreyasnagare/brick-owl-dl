@@ -4,8 +4,10 @@ from rdflib.extras.infixowl import Restriction
 
 from namespaces import *
 
-
-quantity_definitions = {
+"""
+Set up subclasses of the quantity superclass
+"""
+quantity_subclasses = {
     "Air_Quality": {
         "subclasses": {
             "CO2_Level": {},
